@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-import { FirstComponent } from './first/first.component';
+import { FirstComponent } from './components/first/first.component';
+import { SecondComponent } from './components/second/second.component';
 
 @Component({
   selector: 'app-root',
-  imports: [FirstComponent],
+  imports: [FirstComponent, SecondComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
